@@ -66,3 +66,15 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+# Code Plan
+
+- Fetch 25 users
+- Save user data in local component state
+- Create user component that displays user's name & thumbnail. User data will be passed in as props.
+- Use local state in each user component to keep track of button state (show / hide details)
+- When click button, render user details & change button text
+- When click button again, remove user details & change button text
+
